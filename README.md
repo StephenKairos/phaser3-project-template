@@ -18,4 +18,4 @@ Run next commands in your terminal:
 
 ## Editor Notes
 
-I added a boot screen and game screen disambiguation. All game scenes are placed in the `/scenes` folder, which promotes modulation. If you need to edit files outside of the `/src` folder, you'll need to kill and restart any currently running `npm start` induced processes. I've also added some comments in the base code to help newbies figure out where to place things.
+I added a boot screen and game screen disambiguation. All game scenes are placed in the `/scenes` folder, which promotes modulation. If you need to edit files outside of the `/src` folder, you'll need to kill and restart any currently running `npm start` induced processes. I've also added some comments in the base code to help new devs figure out where to place things.
