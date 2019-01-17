@@ -22,11 +22,17 @@ module.exports = {
         ]
     },
 
+    // devServer: {
+    //     contentBase: path.resolve(__dirname, 'build')
+    // },
+    
     plugins: [
         new webpack.DefinePlugin({
             'CANVAS_RENDERER': JSON.stringify(true),
             'WEBGL_RENDERER': JSON.stringify(true)
         })
-    ]
+    ],
+
+    mode: 'development'
 
 };
