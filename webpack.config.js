@@ -21,10 +21,6 @@ module.exports = {
           }
         ]
     },
-
-    // devServer: {
-    //     contentBase: path.resolve(__dirname, 'build')
-    // },
     
     plugins: [
         new webpack.DefinePlugin({
@@ -32,7 +28,6 @@ module.exports = {
             'WEBGL_RENDERER': JSON.stringify(true)
         })
     ],
-
-    mode: 'development'
-
+    
+    mode: 'development' // Change to 'production' when you want to distribute your game
 };
