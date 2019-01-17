@@ -17,7 +17,7 @@ export class GameScene extends Phaser.Scene {
     }
 
     create () {
-        
+        this.add.text(340, 295, 'Hello World!');
     }
 
     update () {

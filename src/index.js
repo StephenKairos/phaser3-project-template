@@ -6,7 +6,7 @@ var config = {
     type: Phaser.AUTO,
     parent: 'phaser-app',
     width: 800,
-    height: 600
+    height: 600,
     scene: [BootScene, GameScene]
 };
 
