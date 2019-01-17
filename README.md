@@ -2,6 +2,8 @@
 
 A Phaser 3 Project Template 
 
+[**Original Template**](https://github.com/photonstorm/phaser3-project-template)
+
 * Original Author: [Photonstorm](https://github.com/photonstorm)
 * Edited By: [Stephen Kairos](https://github.com/stephenkairos)
 
